@@ -1,6 +1,5 @@
 project:
   type: website
-  output-dir: docs
 
 website:
   title: "justingregoire.me"
@@ -20,4 +19,7 @@ format:
     link-external-newwindow: true
 
 editor: visual
+
+execute:
+  freeze: auto
 
