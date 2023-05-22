@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "justingregoire.me"
@@ -7,7 +8,6 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
       - resume.qmd
       - calendar.qmd
 
@@ -17,8 +17,6 @@ format:
     css: styles.css
     toc: true
     link-external-newwindow: true
-
-editor: visual
 
 execute:
   freeze: auto
