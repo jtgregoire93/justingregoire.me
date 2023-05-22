@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Resume
+aliases:
+  - resume.html
 execute:
   freeze: true  # never re-render during project render
 engine: knitr 

@@ -1,5 +1,7 @@
 ---
 title: "Justin Gregoire"
+aliases:
+  - index.html
 image: headshot.png
 about:
   template: trestles
