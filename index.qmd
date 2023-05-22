@@ -1,10 +1,8 @@
 ---
 title: "Justin Gregoire"
-aliases:
-  - index.html
 image: headshot.png
 about:
-  template: trestles
+  template: solana
   links:
     - text: LinkedIn
       url: "https://linkedin.com/in/justin-gregoire"

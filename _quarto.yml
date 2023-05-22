@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "justingregoire.me"
+  title: "Justin Gregoire"
   navbar:
     left:
       - href: index.qmd
@@ -13,9 +13,8 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme: flatly
     css: styles.css
-    toc: true
     link-external-newwindow: true
 
 execute:
