@@ -1,0 +1,81 @@
+---
+title: "linkedin"
+editor: visual
+---
+
+```{r}
+```
+
+```{r}
+library(httr)
+library(jsonlite)
+
+# GitHub Jobs API URL for data science jobs
+url <- "https://jobs.github.com/positions.json?description=data+scientist"
+
+# Send a GET request to the API
+response <- GET(url)
+
+# Check if the request was successful
+if (http_status(response)$category == "Success") {
+  # Parse the JSON response
+  job_postings <- fromJSON(content(response, as = "text"))
+  
+  # Convert the parsed JSON to a data frame
+  job_postings_df <- as.data.frame(job_postings)
+  
+  # Print the data frame
+  print(job_postings_df)
+} else {
+  cat("Failed to fetch job postings. Error:", http_status(response)$message, "\n")
+}
+```
+
+```{if (!requireNamespace("rvest", quietly = TRUE)) install.packages("rvest")}
+if (!requireNamespace("tidyverse", quietly = TRUE)) install.packages("tidyverse")
+if (!requireNamespace("httr", quietly = TRUE)) install.packages("httr")
+library(rvest)
+library(tidyverse)
+library(httr)
+
+# Indeed URL for data scientist jobs in the US
+url <- "https://www.indeed.com/jobs?q=data+scientist&l=United+States"
+
+# Set a custom user agent
+user_agent <- "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0"
+
+# Read the webpage content with the custom user agent
+webpage <- read_html(GET(url, user_agent(user_agent)))
+
+# Extract job titles
+job_titles <- webpage %>%
+  html_nodes("h2.jobTitle") %>%
+  html_text(trim = TRUE)
+
+# Extract company names
+company_names <- webpage %>%
+  html_nodes("span.companyName") %>%
+  html_text(trim = TRUE)
+
+# Extract locations
+locations <- webpage %>%
+  html_nodes("div.companyLocation") %>%
+  html_text(trim = TRUE)
+
+# Extract summaries
+job_summaries <- webpage %>%
+  html_nodes("div.job-snippet") %>%
+  html_text(trim = TRUE)
+
+# Combine the extracted information into a data frame
+job_postings <- data.frame(
+  JobTitle = job_titles,
+  Company = company_names,
+  Location = locations,
+  Summary = job_summaries,
+  stringsAsFactors = FALSE
+)
+
+# Print the data frame
+print(job_postings)
+```

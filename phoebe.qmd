@@ -1,0 +1,47 @@
+---
+title: "Phoebe"
+about:
+  id: hero-heading
+  template: jolla
+  image: phoebe.jpg
+---
+
+```{r message=FALSE, warning=FALSE, include=FALSE}
+# Load the lubridate package
+library(lubridate)
+
+# Define the date of birth
+dob <- ymd("2022-09-01")
+
+# Calculate the age in years and months
+current_date <- Sys.Date()
+years <- as.integer(interval(dob, current_date) / years(1))
+months <- as.integer(interval(dob, current_date) / months(1)) %% 12
+
+# Display the age
+
+```
+
+::: {#hero-heading}
+One-pager with useful information about Phoebe! This includes shots she has included, her eating schedule / diet, general temperament, and hopefully some fun pictures / other data projects related to Phoebe I can think of.
+:::
+
+## **Feeding Schedule + Directions**
+
+
+## **Health & Grooming**
+
+**Health-wise**, she is up to date on all her shots (reattaching medical records to this form). Back in November 2022, she had a little bout of Ghirardi. She hasn't had issues since, but I have included the rest of her antibiotics (please text me poo photos if you need assistance). 
+
+**Grooming** you shouldn't have to worry about this at all. I gave her a nice bath yesterday (April 5th). She gets a bath once a week, so unless you notice extenuating circumstances, don't feel pressured to bathe her.
+
+## **Poop / Pee Schedule**
+
+While Phoebe is not 100% potty-trained, here are some pointers: 
+
+**For poopies:**  She typically will need to poop around 30 mins - 1 hour after eating a meal. This is when I typically take her on walks. 
+
+\* She also will do a VERY slow squatting motion. If you are fast, just yell "Good girl!, come with me!" and she will follow you to the best area before doing the deed
+
+\
+**For pee-pees:** I'm sorry, but I haven't found the magic bullet here. If you discover any tricks that work to bring home, it would be greatly appreciated
