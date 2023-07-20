@@ -15,7 +15,7 @@ about:
     - text: Email
       url: "mailto:jtgregoire93@gmail.com"
     - text: Resume
-      url: "resume_page.qmd"
+      url: "resume.qmd"
     - text: Rover
       url: "https://www.rover.com/sit/justig74774"
 comments: false

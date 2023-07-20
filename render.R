@@ -9,13 +9,13 @@ sheet_ss_id <- "1SqkIDpyVfurLA0DXRgcsZ9aba_Bk9bvak0sGRCLsVX0"
 online_link <- "https://jtgregoire93.github.io/resume/"
 pdf_location <- "https://github.com/jtgregoire93/resume/raw/main/jgregoire_resume.pdf"
 # Knit the HTML version
-rmarkdown::render("resume.rmd", params = list(pdf_export = FALSE,
+rmarkdown::render("resume_generation.rmd", params = list(pdf_export = FALSE,
   sheet_ss_id = sheet_ss_id, online_link = online_link, pdf_location = pdf_location),
-  output_file = "index.html")
+  output_file = "resume_download.html")
 
 # Knit the PDF version to temporary html location
 tmp_html_cv_loc <- fs::file_temp(ext = ".html")
-rmarkdown::render("resume.Rmd", params = list(pdf_export = TRUE,
+rmarkdown::render("resume_generation.Rmd", params = list(pdf_export = TRUE,
   sheet_ss_id = sheet_ss_id, online_link = online_link, pdf_location = pdf_location),
   output_file = tmp_html_cv_loc)
 

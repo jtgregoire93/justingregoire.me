@@ -1,5 +1,26 @@
 [
   {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Resume",
+    "section": "",
+    "text": "Download as PDF"
+  },
+  {
+    "objectID": "resume.html#title",
+    "href": "resume.html#title",
+    "title": "Justin Gregoire’s CV",
+    "section": "Justin Gregoire",
+    "text": "Justin Gregoire\nData scientist with seven years of experience providing data-driven insights to organizations. Skilled in all aspects of data analytics, including tool development, dataset extraction, experiment analysis, statistical modeling, and metric creation from imperfect data. Adept at collaborating with stakeholders to shape crucial decisions affecting millions of users. Experienced in diverse industries such as ed tech, social media, eCommerce, and cloud services."
+  },
+  {
+    "objectID": "resume.html#professional-experience",
+    "href": "resume.html#professional-experience",
+    "title": "Justin Gregoire’s CV",
+    "section": "Professional Experience",
+    "text": "Professional Experience\n\nSenior Data Scientist, Product Analytics\nTikTok\nMountain View, CA\n2023 - 2022\n\nEvaluated Tiktok’s US e-Commerce rollout performance, compared it to previous geographical launches, and suggested product enhancements to tackle pain points and capitalize on opportunities.\nCreated RFM segmentation using purchase behavior and proposed product strategies to expand high-value segments.\n\n\n\nSenior Data Scientist\nSkillshare\nNew York, NY\n2022 - 2021\n\nLed data science efforts for marketplace expansion, analyzing product features to enhance core membership. Utilized k-means clustering to segment teachers by engagement, deriving critical insights. Employed cluster data to assess monetization potential and prioritize feature proposals under resource constraints. Showcased potential sales growth of 5-50% through rapid testing and iterative learning plans.\nEmbedded data scientist with personalization & discovery teams to design and analyze experiments for content recommendation algorithm updates, onboarding enhancements, and Search/Browse functionality improvements.\nDeveloped self-serve tools to streamline experiment analysis and planning for product teams and foster best practices\n\n\n\nData Scientist\nSkillshare\nNew York, NY\n2021 - 2020\n\nCollaborated with VP of Growth to evaluate international expansion markets using internal and external data. Presented insights, proposed strategy to CEO, executive team, and ultimately gained company approval.\nBuilt an external facing algorithm projecting teachers’ upcoming monthly royalty payments, subsequently increasing teacher retention and satisfaction scores.\n\n\n\nMarketing Analytics Manager\nSkillshare\nNew York, NY\n2020 - 2019\n\nPartnered with product’s growth pod on A/B + multivariate experiment design and analysis of various subscription pricing strategies.\nImplemented a “first touch” marketing attribution model by assessing various heuristic and algorithmic methods, considering output accuracy, ease of implementation, and interpretability.\n\n\n\nDigital Senior Analyst, Marketing Analytics @ Google\nAccenture\nSan Francisco, CA\n2019 - 2017\n\nHeaded a team of 4 data analysts for a crucial acquisition project, collaborating with marketing, sales, and engineering to establish metrics and build supporting data pipelines and reporting\n\n\n\nDigital Analyst @ Zynga\nAccenture\nSan Francisco, CA\n2017 - 2016\n\nCollaborated with the VP of User Acquisition on analytics projects, boosting returns on ad spend from 70% to 115% for a yearly investment exceeding $100M. Developed executive reports and implemented real-time user LTV modeling, enabling marketers to optimize budgets efficiently."
+  },
+  {
     "objectID": "phoebe.html",
     "href": "phoebe.html",
     "title": "Phoebe",
@@ -28,29 +49,22 @@
     "text": "Poop / Pee Schedule\nWhile Phoebe is not 100% potty-trained, here are some pointers: \nFor poopies:  She typically will need to poop around 30 mins - 1 hour after eating a meal. This is when I typically take her on walks. \n* She also will do a VERY slow squatting motion. If you are fast, just yell “Good girl!, come with me!” and she will follow you to the best area before doing the deed\n\nFor pee-pees: I’m sorry, but I haven’t found the magic bullet here. If you discover any tricks that work to bring home, it would be greatly appreciated"
   },
   {
-    "objectID": "resume_page.html",
-    "href": "resume_page.html",
-    "title": "Resume",
-    "section": "",
-    "text": "Download as PDF"
-  },
-  {
-    "objectID": "resume.html",
-    "href": "resume.html",
+    "objectID": "resume_generation.html",
+    "href": "resume_generation.html",
     "title": "Justin Gregoire’s CV",
     "section": "",
     "text": "San Francisco, California\n jtgregoire93@gmail.com\n 757-619-7431\nSocials:  . \n\n\n\n\n\nUniversity of Virginia\nB.S. Systems Engineering\n2012-2016\n\n\n\n\n\nStatistics for inference + experiment design\nStatistical modeling\nR expert; advanced Python experience\n\n\n\n\n\nCross-functional project experience with product management, marketing, sales, and finance teams\nOrganizational data strategy and roadmap development\nExtensive executive presentation experience\n\n\n\n\n\nR; Python; SQL: Redshift, BigQuery, DBT Big Data in Spark/Hive\nDashboards and automated reports in Tableau, Looker, Domo, Mixpanel, Shiny, Rmarkdown, Quarto\nProject management using Jira, Github, Confluence\n\n\n\nOnline version"
   },
   {
-    "objectID": "resume.html#title",
-    "href": "resume.html#title",
+    "objectID": "resume_generation.html#title",
+    "href": "resume_generation.html#title",
     "title": "Justin Gregoire’s CV",
     "section": "Justin Gregoire",
     "text": "Justin Gregoire\nData scientist with seven years of experience providing data-driven insights to organizations. Skilled in all aspects of data analytics, including tool development, dataset extraction, experiment analysis, statistical modeling, and metric creation from imperfect data. Adept at collaborating with stakeholders to shape crucial decisions affecting millions of users. Experienced in diverse industries such as ed tech, social media, eCommerce, and cloud services."
   },
   {
-    "objectID": "resume.html#professional-experience",
-    "href": "resume.html#professional-experience",
+    "objectID": "resume_generation.html#professional-experience",
+    "href": "resume_generation.html#professional-experience",
     "title": "Justin Gregoire’s CV",
     "section": "Professional Experience",
     "text": "Professional Experience\n\nSenior Data Scientist, Product Analytics\nTikTok\nMountain View, CA\n2023 - 2022\n\nEvaluated Tiktok’s US e-Commerce rollout performance, compared it to previous geographical launches, and suggested product enhancements to tackle pain points and capitalize on opportunities.\nCreated RFM segmentation using purchase behavior and proposed product strategies to expand high-value segments.\n\n\n\nSenior Data Scientist\nSkillshare\nNew York, NY\n2022 - 2021\n\nLed data science efforts for marketplace expansion, analyzing product features to enhance core membership. Utilized k-means clustering to segment teachers by engagement, deriving critical insights. Employed cluster data to assess monetization potential and prioritize feature proposals under resource constraints. Showcased potential sales growth of 5-50% through rapid testing and iterative learning plans.\nEmbedded data scientist with personalization & discovery teams to design and analyze experiments for content recommendation algorithm updates, onboarding enhancements, and Search/Browse functionality improvements.\nDeveloped self-serve tools to streamline experiment analysis and planning for product teams and foster best practices\n\n\n\nData Scientist\nSkillshare\nNew York, NY\n2021 - 2020\n\nCollaborated with VP of Growth to evaluate international expansion markets using internal and external data. Presented insights, proposed strategy to CEO, executive team, and ultimately gained company approval.\nBuilt an external facing algorithm projecting teachers’ upcoming monthly royalty payments, subsequently increasing teacher retention and satisfaction scores.\n\n\n\nMarketing Analytics Manager\nSkillshare\nNew York, NY\n2020 - 2019\n\nPartnered with product’s growth pod on A/B + multivariate experiment design and analysis of various subscription pricing strategies.\nImplemented a “first touch” marketing attribution model by assessing various heuristic and algorithmic methods, considering output accuracy, ease of implementation, and interpretability.\n\n\n\nDigital Senior Analyst, Marketing Analytics @ Google\nAccenture\nSan Francisco, CA\n2019 - 2017\n\nHeaded a team of 4 data analysts for a crucial acquisition project, collaborating with marketing, sales, and engineering to establish metrics and build supporting data pipelines and reporting\n\n\n\nDigital Analyst @ Zynga\nAccenture\nSan Francisco, CA\n2017 - 2016\n\nCollaborated with the VP of User Acquisition on analytics projects, boosting returns on ad spend from 70% to 115% for a yearly investment exceeding $100M. Developed executive reports and implemented real-time user LTV modeling, enabling marketers to optimize budgets efficiently."

@@ -8,7 +8,7 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - resume_page.qmd
+      - resume.qmd
       - calendar.qmd
 
 format:
