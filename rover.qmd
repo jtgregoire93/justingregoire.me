@@ -1,0 +1,36 @@
+---
+layout: page
+title: Rover
+aliases:
+  - rover.html
+execute:
+  freeze: true  # never re-render during project render
+engine: knitr 
+---
+```{css echo=FALSE}
+.embed-container {
+    position: relative;
+    padding-bottom: 129%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+```
+
+
+```{=html}
+<iframe src="https://www.rover.com/sit/justig74774" width="1000" height="500"></iframe>
+```
+
+```{=html}
+<iframe width="780" height="500" src="https://www.rover.com/sit/justig74774" title="Quarto Documentation" data-external="1"></iframe>
+```

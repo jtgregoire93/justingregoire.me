@@ -12,16 +12,17 @@ cv:
   pdf: "jgregoire_resume.pdf"
 ---
 
-```{css echo=FALSE}
+```{r generate, message=TRUE, warning=TRUE, include=FALSE}
+source("render.R")
+```
+
+```{css contain, echo=FALSE}
 .embed-container {
     position: relative;
-    padding-bottom: 129%;
-    height: 0;
-    overflow: hidden;
-    max-width: 100%;
+    padding-bottom: 100%;
+    max-width: 1250%;
 }
 .embed-container iframe,
-.embed-container object,
 .embed-container embed {
     position: absolute;
     top: 0;
@@ -31,9 +32,11 @@ cv:
 }
 ```
 
+[Download as PDF](https://github.com/jtgregoire93/resume/raw/main/jgregoire_resume.pdf)
+
 ```{=html}
 
 <div class="embed-container">
-  <iframe src="`r rmarkdown::metadata$cv$pdf`" style="border: 0.5px"></iframe>
+  <iframe src="`r rmarkdown::metadata$cv$pdf`" style="border: 0.1px"></iframe>
 </div>
 ```
