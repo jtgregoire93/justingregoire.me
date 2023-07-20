@@ -12,7 +12,7 @@ cv:
   html: "resume_gen/resume_download.html"
 ---
 
-```{r generate, message=TRUE, warning=TRUE, include=FALSE}
+```{r generate, message=FALSE, warning=FALSE, include=FALSE}
 source("resume_gen/render.R")
 ```
 
@@ -32,7 +32,7 @@ source("resume_gen/render.R")
 }
 ```
 
-[Download as PDF](https://github.com/jtgregoire93/justingregoire.me/raw/main/jgregoire_resume.pdf)
+[Download as PDF](https://github.com/jtgregoire93/justingregoire.me/raw/main/pdf/jgregoire_resume.pdf)
 
 
 
