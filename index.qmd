@@ -1,6 +1,6 @@
 ---
 title: "Justin Gregoire"
-image: headshot.png
+image: justin_pic.png
 about:
   template: solana
   links:

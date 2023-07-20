@@ -7,13 +7,13 @@ execute:
   freeze: true  # never re-render during project render
 engine: knitr 
 resources:
-  - "jgregoire_resume.pdf"
+  - "pdf/jgregoire_resume.pdf"
 cv:
-  html: "resume_download.html"
+  html: "resume_gen/resume_download.html"
 ---
 
 ```{r generate, message=TRUE, warning=TRUE, include=FALSE}
-source("render.R")
+source("resume_gen/render.R")
 ```
 
 ```{css contain, echo=FALSE}
