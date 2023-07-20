@@ -11,7 +11,7 @@ params:
   online_link:
     value: "https://justingregoire.me/resume.html"
   pdf_location: 
-    value: "jgregoire_resume.pdf"
+    value: "https://github.com/jtgregoire93/justingregoire.me/raw/main/jgregoire_resume.pdf"
 output:
   pagedown::html_resume:
     css: ['css/custom_resume.css','css/styles.css','resume']

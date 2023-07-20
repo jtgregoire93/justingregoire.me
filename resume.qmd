@@ -9,7 +9,7 @@ engine: knitr
 resources:
   - "jgregoire_resume.pdf"
 cv:
-  pdf: "jgregoire_resume.pdf"
+  html: "resume_download.html"
 ---
 
 ```{r generate, message=TRUE, warning=TRUE, include=FALSE}
@@ -32,11 +32,13 @@ source("render.R")
 }
 ```
 
-[Download as PDF](https://github.com/jtgregoire93/resume/raw/main/jgregoire_resume.pdf)
+[Download as PDF](https://github.com/jtgregoire93/justingregoire.me/raw/main/jgregoire_resume.pdf)
+
+
 
 ```{=html}
 
 <div class="embed-container">
-  <iframe src="`r rmarkdown::metadata$cv$pdf`" style="border: 0.1px"></iframe>
+  <iframe src="`r rmarkdown::metadata$cv$html`" style="border: 0.1px"></iframe>
 </div>
 ```
