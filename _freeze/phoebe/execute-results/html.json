@@ -1,0 +1,14 @@
+{
+  "hash": "0c739a52155e7b9d708fa3cad2dee3a7",
+  "result": {
+    "markdown": "---\ntitle: \"Phoebe\"\nabout:\n  id: hero-heading\n  template: jolla\n  image: phoebe.jpg\n---\n\n\n\n\n::: {#hero-heading}\nOne-pager with useful information about Phoebe! This includes shots she has included, her eating schedule / diet, general temperament, and hopefully some fun pictures / other data projects related to Phoebe I can think of.\n:::\n\n## **Feeding Schedule + Directions**\n\n\n## **Health & Grooming**\n\n**Health-wise**, she is up to date on all her shots (reattaching medical records to this form). Back in November 2022, she had a little bout of Ghirardi. She hasn't had issues since, but I have included the rest of her antibiotics (please text me poo photos if you need assistance). \n\n**Grooming** you shouldn't have to worry about this at all. I gave her a nice bath yesterday (April 5th). She gets a bath once a week, so unless you notice extenuating circumstances, don't feel pressured to bathe her.\n\n## **Poop / Pee Schedule**\n\nWhile Phoebe is not 100% potty-trained, here are some pointers: \n\n**For poopies:**  She typically will need to poop around 30 mins - 1 hour after eating a meal. This is when I typically take her on walks. \n\n\\* She also will do a VERY slow squatting motion. If you are fast, just yell \"Good girl!, come with me!\" and she will follow you to the best area before doing the deed\n\n\\\n**For pee-pees:** I'm sorry, but I haven't found the magic bullet here. If you discover any tricks that work to bring home, it would be greatly appreciated\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
