@@ -1,0 +1,9 @@
+---
+title: Testing Self-contained for iframe
+---
+
+## A slide that contains an iframe
+
+Iframe doesn't seem work properly with self-contained.
+
+<iframe src="https://scheduler.zoom.us/justingregoire/general-availability" title="https://quarto.org/" width="960" height="500" data-external="1"></iframe>

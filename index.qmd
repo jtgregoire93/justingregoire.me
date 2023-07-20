@@ -24,7 +24,26 @@ comments: false
 ::: {#about-me}
 Data scientist with seven years of experience providing data-driven insights to organizations. Skilled in all aspects of data analytics, including tool development, dataset extraction, experiment analysis, statistical modeling, and metric creation from imperfect data. Adept at collaborating with stakeholders to shape crucial decisions affecting millions of users. Experienced in diverse industries such as ed tech, social media, eCommerce, and cloud services.
 
-In my personal life, I'm the proud owner of a golden retriever named Phoebe
+```{=html}
+<!-- Google Calendar Appointment Scheduling begin -->
+<link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
+<script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+<script>
+(function() {
+  var target = document.currentScript;
+  window.addEventListener('load', function() {
+    calendar.schedulingButton.load({
+      url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ2THDzW1Mowg7Di_PrTmYjMRS9UsIqyAjrLIzNM-WOSbeXCeYTXGFB4j538ldKwjw8tnea4A3_1?gv=true',
+      color: '#2c3e50',
+      label: "Book some time with me!",
+      target,
+    });
+  });
+})();
+</script>
+<!-- end Google Calendar Appointment Scheduling -->
+```
+
 
 ## Education
 
