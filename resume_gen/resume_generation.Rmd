@@ -1,6 +1,11 @@
 ---
 title: "Justin Gregoire's CV"
 date: "`r Sys.Date()`"
+format:
+  html:
+    link-external-icon: true
+    link-external-newwindow: true
+    link-external-filter: '^(?:http:|https:)\/\/www\.quarto\.org\/custom'
 params: 
   your_name: 
     value: "Justin Gregoire"
@@ -87,18 +92,30 @@ email <- contact_info %>%
 
 # Aside
 
+![](headshot.png){width="100%"}
+
+------------------------------------------------------------------------
+
 ### Contact {#contact}
 
--   [![](svg/map-pin.svg){style="color:red" width="8%"}](https://goo.gl/maps/Kq3da8KnpZdFY6nd7) `r location %>% select(entry)`
--   [![](svg/envelope.svg){width="8%"}](mailto:jtgregoire93@gmail.com) `r email %>% select(entry) %>% as.character()`
--   [![](svg/phone.svg){width="8%"}](tel:+1757-619-7431) `r phone %>% select(entry)`
--   Socials: [![](svg/linkedin.svg){width="8%"}](https://www.linkedin.com/in/justin-gregoire) [![](svg/github.svg){width="8%"}](https://github.com/jtgregoire93). [![](svg/calendar-days.svg){width="8%"}](https://calendly.com/jtgregoire93/30-minute-call)
+|     |                                                                                                                 |                                                                                    |
+|---------|----------------------------|----------------------------------------------------------|
+|     | [![Mail](svg/envelope.svg){alt="Mail" width="50%"}](mailto:jtgregoire93@gmail.com)                              | `r email %>% select(entry) %>% as.character()`                                     |
+|     | ![Phone](svg/phone.svg){alt="Phone" width="50%"}                                                                | `r phone %>% select(entry)`                                                        |
+|     | [![Site](svg/compass-regular.svg){alt="Site" width="50%"}](https://justingregoire.me/)                          | [justingregoire.me](https://justingregoire.me/){style="color: #444"}               |
+|     | [![Calendar](svg/calendar-days.svg){alt="Calendar" width="50%"}](https://calendar.app.google/J4eY2975fDGTM3SM9) | [Availability](https://calendar.app.google/J4eY2975fDGTM3SM9){style="color: #444"} |
+|     | [![Github](svg/github.svg){alt="Github" width="50%"}](https://github.com/jtgregoire93)                          | [Github](https://github.com/jtgregoire93){style="color: #444"}                     |
+|     | [![Linkedin](svg/linkedin-in.svg){alt="Linkedin" width="50%"}](https://www.linkedin.com/in/justin-gregoire/)    | [Linkedin](https://www.linkedin.com/in/justin-gregoire/){style="color: #444"}      |
+
+------------------------------------------------------------------------
 
 ### Education {data-icon="graduation-cap" data-concise="true"}
 
 -   **`r position_data %>% filter(section == 'education') %>% select("institution")`**
 -   `r position_data %>% filter(section == 'education') %>% select("title")`
 -   `r paste0(position_data %>% filter(section == 'education') %>% select("start"), '-', position_data %>% filter(section == 'education') %>% select("end"))`
+
+------------------------------------------------------------------------
 
 ### **Technical Skills**
 
@@ -108,6 +125,8 @@ email <- contact_info %>%
 
 -   `r skills %>% filter(loc == 'technical') %>% select("skill3")`
 
+------------------------------------------------------------------------
+
 ### **Strategic Skills**
 
 -   `r skills %>% filter(loc == 'strategic') %>% select("skill1")`
@@ -115,6 +134,8 @@ email <- contact_info %>%
 -   `r skills %>% filter(loc == 'strategic') %>% select("skill2")`
 
 -   `r skills %>% filter(loc == 'strategic') %>% select("skill3")`
+
+------------------------------------------------------------------------
 
 ### **Toolset**
 
@@ -124,18 +145,7 @@ email <- contact_info %>%
 
 -   `r skills %>% filter(loc == 'toolset') %>% select("skill3")`
 
-#### Access {#files}
-
-```{r}
-# When in export mode the little dots are unaligned, so fix that. 
-if(PDF_EXPORT){
-  cat("[Online version](", params$online_link, ")")
-} else {
-  cat("[<i class='fas fa-download'></i> Download PDF version](", params$pdf_location, ")")
-}
-```
-
-# Main
+# /Main
 
 ## `r your_name` {#title}
 

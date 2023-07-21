@@ -134,14 +134,45 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="aside" class="level1">
 <h1>Aside</h1>
+<p><img src="headshot.png" class="img-fluid" style="width:100.0%"></p>
+<hr>
 <section id="contact" class="level3">
 <h3 class="anchored" data-anchor-id="contact">Contact</h3>
-<ul>
-<li><a href="https://goo.gl/maps/Kq3da8KnpZdFY6nd7"><img src="svg/map-pin.svg" class="img-fluid" style="color:red;width:8.0%"></a> San Francisco, California</li>
-<li><a href="mailto:jtgregoire93@gmail.com"><img src="svg/envelope.svg" class="img-fluid" style="width:8.0%"></a> jtgregoire93@gmail.com</li>
-<li><a href="tel:+1757-619-7431"><img src="svg/phone.svg" class="img-fluid" style="width:8.0%"></a> 757-619-7431</li>
-<li>Socials: <a href="https://www.linkedin.com/in/justin-gregoire"><img src="svg/linkedin.svg" class="img-fluid" style="width:8.0%"></a> <a href="https://github.com/jtgregoire93"><img src="svg/github.svg" class="img-fluid" style="width:8.0%"></a>. <a href="https://calendly.com/jtgregoire93/30-minute-call"><img src="svg/calendar-days.svg" class="img-fluid" style="width:8.0%"></a></li>
-</ul>
+<table class="table">
+<tbody>
+<tr class="odd">
+<td></td>
+<td><a href="mailto:jtgregoire93@gmail.com"><img src="svg/envelope.svg" class="img-fluid" style="width:50.0%" alt="Mail"></a></td>
+<td>jtgregoire93@gmail.com</td>
+</tr>
+<tr class="even">
+<td></td>
+<td><img src="svg/phone.svg" class="img-fluid" style="width:50.0%" alt="Phone"></td>
+<td>757-619-7431</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><a href="https://justingregoire.me/"><img src="svg/compass-regular.svg" class="img-fluid" style="width:50.0%" alt="Site"></a></td>
+<td><a href="https://justingregoire.me/" style="color: #444">justingregoire.me</a></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><a href="https://calendar.app.google/J4eY2975fDGTM3SM9"><img src="svg/calendar-days.svg" class="img-fluid" style="width:50.0%" alt="Calendar"></a></td>
+<td><a href="https://calendar.app.google/J4eY2975fDGTM3SM9" style="color: #444">Availability</a></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><a href="https://github.com/jtgregoire93"><img src="svg/github.svg" class="img-fluid" style="width:50.0%" alt="Github"></a></td>
+<td><a href="https://github.com/jtgregoire93" style="color: #444">Github</a></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><a href="https://www.linkedin.com/in/justin-gregoire/"><img src="svg/linkedin-in.svg" class="img-fluid" style="width:50.0%" alt="Linkedin"></a></td>
+<td><a href="https://www.linkedin.com/in/justin-gregoire/" style="color: #444">Linkedin</a></td>
+</tr>
+</tbody>
+</table>
+<hr>
 </section>
 <section id="education" class="level3" data-icon="graduation-cap" data-concise="true">
 <h3 data-icon="graduation-cap" data-concise="true" class="anchored" data-anchor-id="education">Education</h3>
@@ -150,6 +181,7 @@ ul.task-list li input[type="checkbox"] {
 <li>B.S. Systems Engineering</li>
 <li>2012-2016</li>
 </ul>
+<hr>
 </section>
 <section id="technical-skills" class="level3">
 <h3 class="anchored" data-anchor-id="technical-skills"><strong>Technical Skills</strong></h3>
@@ -158,6 +190,7 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Statistical modeling</p></li>
 <li><p>R expert; advanced Python experience</p></li>
 </ul>
+<hr>
 </section>
 <section id="strategic-skills" class="level3">
 <h3 class="anchored" data-anchor-id="strategic-skills"><strong>Strategic Skills</strong></h3>
@@ -166,6 +199,7 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Organizational data strategy and roadmap development</p></li>
 <li><p>Extensive executive presentation experience</p></li>
 </ul>
+<hr>
 </section>
 <section id="toolset" class="level3">
 <h3 class="anchored" data-anchor-id="toolset"><strong>Toolset</strong></h3>
@@ -174,14 +208,10 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Dashboards and automated reports in Tableau, Looker, Domo, Mixpanel, Shiny, Rmarkdown, Quarto</p></li>
 <li><p>Project management using Jira, Github, Confluence</p></li>
 </ul>
-<section id="files" class="level4">
-<h4 class="anchored" data-anchor-id="files">Access</h4>
-<p><a href="https://justingregoire.me/resume.html">Online version</a></p>
-</section>
 </section>
 </section>
 <section id="main" class="level1">
-<h1>Main</h1>
+<h1>/Main</h1>
 <section id="title" class="level2">
 <h2 class="anchored" data-anchor-id="title">Justin Gregoire</h2>
 <p>Data scientist with seven years of experience providing data-driven insights to organizations. Skilled in all aspects of data analytics, including tool development, dataset extraction, experiment analysis, statistical modeling, and metric creation from imperfect data. Adept at collaborating with stakeholders to shape crucial decisions affecting millions of users. Experienced in diverse industries such as ed tech, social media, eCommerce, and cloud services.</p>
@@ -485,7 +515,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("^(?:http:|https:)\/\/www\.quarto\.org\/custom");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href);
     }
@@ -496,6 +526,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (!isInternal(link.href)) {
           // target, if specified
           link.setAttribute("target", "_blank");
+          // default icon
+          link.classList.add("external");
       }
     }
 });
