@@ -92,60 +92,48 @@ email <- contact_info %>%
 
 # Aside
 
-![](headshot.png){width="100%"}
-
-------------------------------------------------------------------------
-
 ### Contact {#contact}
 
-|     |                                                                                                                 |                                                                                    |
-|---------|----------------------------|----------------------------------------------------------|
-|     | [![Mail](svg/envelope.svg){alt="Mail" width="50%"}](mailto:jtgregoire93@gmail.com)                              | `r email %>% select(entry) %>% as.character()`                                     |
-|     | ![Phone](svg/phone.svg){alt="Phone" width="50%"}                                                                | `r phone %>% select(entry)`                                                        |
-|     | [![Site](svg/compass-regular.svg){alt="Site" width="50%"}](https://justingregoire.me/)                          | [justingregoire.me](https://justingregoire.me/){style="color: #444"}               |
-|     | [![Calendar](svg/calendar-days.svg){alt="Calendar" width="50%"}](https://calendar.app.google/J4eY2975fDGTM3SM9) | [Availability](https://calendar.app.google/J4eY2975fDGTM3SM9){style="color: #444"} |
-|     | [![Github](svg/github.svg){alt="Github" width="50%"}](https://github.com/jtgregoire93)                          | [Github](https://github.com/jtgregoire93){style="color: #444"}                     |
-|     | [![Linkedin](svg/linkedin-in.svg){alt="Linkedin" width="50%"}](https://www.linkedin.com/in/justin-gregoire/)    | [Linkedin](https://www.linkedin.com/in/justin-gregoire/){style="color: #444"}      |
-
-------------------------------------------------------------------------
+|                                                                                                                 |                                                                                    |
+|-------------------------|-----------------------------------------------|
+| [![Mail](svg/envelope.svg){alt="Mail" width="50%"}](mailto:jtgregoire93@gmail.com)                              | `r email %>% select(entry) %>% as.character()`                                     |
+| ![Phone](svg/phone.svg){alt="Phone" width="50%"}                                                                | `r phone %>% select(entry)`                                                        |
+| [![Site](svg/compass-regular.svg){alt="Site" width="50%"}](https://justingregoire.me/)                          | [justingregoire.me](https://justingregoire.me/){style="color: #444"}               |
+| [![Calendar](svg/calendar-days.svg){alt="Calendar" width="50%"}](https://calendar.app.google/J4eY2975fDGTM3SM9) | [Availability](https://calendar.app.google/J4eY2975fDGTM3SM9){style="color: #444"} |
+| [![Github](svg/github.svg){alt="Github" width="50%"}](https://github.com/jtgregoire93)                          | [Github](https://github.com/jtgregoire93){style="color: #444"}                     |
+| [![Linkedin](svg/linkedin-in.svg){alt="Linkedin" width="50%"}](https://www.linkedin.com/in/justin-gregoire/)    | [Linkedin](https://www.linkedin.com/in/justin-gregoire/){style="color: #444"}      |
 
 ### Education {data-icon="graduation-cap" data-concise="true"}
 
--   **`r position_data %>% filter(section == 'education') %>% select("institution")`**
--   `r position_data %>% filter(section == 'education') %>% select("title")`
--   `r paste0(position_data %>% filter(section == 'education') %>% select("start"), '-', position_data %>% filter(section == 'education') %>% select("end"))`
+-   **`r knitr::asis_output(position_data %>% filter(section == 'education') %>% pull("institution") %>% paste(collapse=", "))`**
 
-------------------------------------------------------------------------
+-   `r knitr::asis_output(position_data %>% filter(section == 'education') %>% pull("title") %>% paste(collapse=", "))`
 
-### **Technical Skills**
+-   `r knitr::asis_output(paste0(position_data %>% filter(section == 'education') %>% pull("start"), '-', position_data %>% filter(section == 'education') %>% pull("end")) %>% paste(collapse=", "))`
 
--   `r skills %>% filter(loc == 'technical') %>% select("skill1")`
+### Technical Skills
 
--   `r skills %>% filter(loc == 'technical') %>% select("skill2")`
+-   `r knitr::asis_output(skills %>% filter(loc == 'technical') %>% pull("skill1") %>% paste(collapse=", "))`
 
--   `r skills %>% filter(loc == 'technical') %>% select("skill3")`
+-   `r knitr::asis_output(skills %>% filter(loc == 'technical') %>% pull("skill2") %>% paste(collapse=", "))`
 
-------------------------------------------------------------------------
+-   `r knitr::asis_output(skills %>% filter(loc == 'technical') %>% pull("skill3") %>% paste(collapse=", "))`
 
-### **Strategic Skills**
+### Strategic Skills
 
--   `r skills %>% filter(loc == 'strategic') %>% select("skill1")`
+-   `r knitr::asis_output(skills %>% filter(loc == 'strategic') %>% pull("skill1") %>% paste(collapse=", "))`
 
--   `r skills %>% filter(loc == 'strategic') %>% select("skill2")`
+-   `r knitr::asis_output(skills %>% filter(loc == 'strategic') %>% pull("skill2") %>% paste(collapse=", "))`
 
--   `r skills %>% filter(loc == 'strategic') %>% select("skill3")`
+-   `r knitr::asis_output(skills %>% filter(loc == 'strategic') %>% pull("skill3") %>% paste(collapse=", "))`
 
-------------------------------------------------------------------------
+### Toolset
 
-### **Toolset**
+-   `r knitr::asis_output(skills %>% filter(loc == 'toolset') %>% pull("skill1") %>% paste(collapse=", "))`
 
--   `r skills %>% filter(loc == 'toolset') %>% select("skill1")`
+-   `r knitr::asis_output(skills %>% filter(loc == 'toolset') %>% pull("skill2") %>% paste(collapse=", "))`
 
--   `r skills %>% filter(loc == 'toolset') %>% select("skill2")`
-
--   `r skills %>% filter(loc == 'toolset') %>% select("skill3")`
-
-# /Main
+# Main
 
 ## `r your_name` {#title}
 
