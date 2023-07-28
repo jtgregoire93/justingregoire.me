@@ -95,7 +95,7 @@ email <- contact_info %>%
 ### Contact {#contact}
 
 |                                                                                                                 |                                                                                    |
-|-----------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
+|-------------------------|-----------------------------------------------|
 | [![Mail](svg/envelope.svg){alt="Mail" width="50%"}](mailto:jtgregoire93@gmail.com)                              | `r email %>% select(entry) %>% as.character()`                                     |
 | ![Phone](svg/phone.svg){alt="Phone" width="50%"}                                                                | `r phone %>% select(entry)`                                                        |
 | [![Site](svg/compass-regular.svg){alt="Site" width="50%"}](https://justingregoire.me/)                          | [justingregoire.me](https://justingregoire.me/){style="color: #444"}               |
