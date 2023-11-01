@@ -1,0 +1,39 @@
+---
+layout: page
+title: Dog Walking
+aliases:
+  - dogwalking.html
+execute:
+  freeze: true  # never re-render during project render
+engine: knitr 
+editor_options: 
+  chunk_output_type: inline
+---
+
+Currently, I offer dog walking / sitting in 2 ways:
+
+::: columns
+::: {.column width="45%"}
+### Phoebe's Paw Parade
+```{=html}
+<!-- Calendly link widget begin -->
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+<a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/justingregoire/monday-phoebe-s-paw-parade'});return false;">Booking Link</a>
+<!-- Calendly link widget end -->
+```
+These walk schedules are meant for longer term customers. You can start by booking an inital 1.5 hour walk at any available times on my Calendly. If your pup seems like a long term fit for the group, we can discuss booking at a weekly or monthly rate.
+:::
+
+::: {.column width="5%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="40%"}
+### [Rover](https://www.rover.com/sit/justig74774)
+
+This is typically a good way to book a one time service. Since this is done through the platform, my prices are a bit higher to accounts for the 25% fee rover takes on all bookings. If you want to work something out long term after booking, we can discuss my non-Rover price points
+
+Use this [link](https://www.rover.com/sit/justig74774) to check out my profile and book, and use the promocode: **JUSTIG74774** for \$20 off your first walk.
+:::
+:::

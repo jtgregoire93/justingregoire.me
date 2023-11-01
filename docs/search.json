@@ -1,5 +1,26 @@
 [
   {
+    "objectID": "calendar.html",
+    "href": "calendar.html",
+    "title": "Calendar",
+    "section": "",
+    "text": "Feel free to book 30 minutes with me. Please specify conferencing details (Phone call, conferencing client, in-person, etc.). You can also use this page to check my availability, and book accordingly."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "dog.html",
+    "href": "dog.html",
+    "title": "Dog Walking",
+    "section": "",
+    "text": "Currently, I offer dog walking / sitting in 2 ways:\n\n\n\nPhoebe’s Paw Parade\n\n\n\nBooking Link\n\nThese walk schedules are meant for longer term customers. You can start by booking an inital 1.5 hour walk at any available times on my Calendly. If your pup seems like a long term fit for the group, we can discuss booking at a weekly or monthly rate.\n\n\n\n\n\nRover\nThis is typically a good way to book a one time service. Since this is done through the platform, my prices are a bit higher to accounts for the 25% fee rover takes on all bookings. If you want to work something out long term after booking, we can discuss my non-Rover price points\nUse this link to check out my profile and book, and use the promocode: JUSTIG74774 for $20 off your first walk."
+  },
+  {
     "objectID": "resume.html",
     "href": "resume.html",
     "title": "Resume",
@@ -39,7 +60,7 @@
     "href": "index.html",
     "title": "Justin Gregoire",
     "section": "",
-    "text": "Data scientist with seven years of experience providing data-driven insights to organizations. Skilled in all aspects of data analytics, including tool development, dataset extraction, experiment analysis, statistical modeling, and metric creation from imperfect data. Adept at collaborating with stakeholders to shape crucial decisions affecting millions of users. Experienced in diverse industries such as ed tech, social media, eCommerce, and cloud services.\n\n\n\n\n\n\n\nIn my spare time, I love hiking, cooking, and spending time with my golden retriever pup named Phoebe! I also started providing dog walking, sitting, and boarding services via Rover in my spare time. Check out my Rover profile to book!"
+    "text": "Data scientist with seven years of experience providing data-driven insights to organizations. Skilled in all aspects of data analytics, including tool development, dataset extraction, experiment analysis, statistical modeling, and metric creation from imperfect data. Adept at collaborating with stakeholders to shape crucial decisions affecting millions of users. Experienced in diverse industries such as ed tech, social media, eCommerce, and cloud services.\n\n\n\nSchedule time with me\n\n\n\nIn my spare time, I love hiking, cooking, and spending time with my golden retriever pup named Phoebe! I also started providing dog walking, sitting, and boarding services via Rover in my spare time. Check out my Rover profile to book!"
   },
   {
     "objectID": "index.html#personal",
@@ -47,13 +68,6 @@
     "title": "Justin Gregoire",
     "section": "",
     "text": "In my spare time, I love hiking, cooking, and spending time with my golden retriever pup named Phoebe! I also started providing dog walking, sitting, and boarding services via Rover in my spare time. Check out my Rover profile to book!"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
   },
   {
     "objectID": "resume_gen/resume_generation.html",
@@ -74,27 +88,6 @@
     "href": "resume_gen/resume_generation.html#professional-experience",
     "title": "Justin Gregoire’s CV",
     "section": "Professional Experience",
-    "text": "Professional Experience\n\nSenior Data Scientist, Product Analytics\nTikTok\nMountain View, CA\n2023 - 2022\n\nEmbedded on TikTok’s US E-Commerce team for TikTok Shop launch. Analyzed rollout performance across UK, Southeast Asia, and China, identifying key consumer differences. Provided UX and product experiment recommendations based on findings to enhance the consumer journey from product details to checkout.\nCreated RFM segmentation based on purchase behavior. Proposed product strategies to expand high-value segments.\n\n\n\nSenior Data Scientist\nSkillshare\nNew York, NY\n2022 - 2021\n\nEmployed k-means clustering to analyze audience engagement at Skillshare, leading to the identification of distinct teacher clusters and new monetization opportunities. This analysis informed the development and prioritization of features such as paid 1x1 sessions, webinars, and portfolio reviews, predicting a sales growth of 5-50%\nCollaborated with personalization & discovery teams to design and analyze experiments for content recommendation, onboarding enhancements, and other features\n\n\n\nData Scientist\nSkillshare\nNew York, NY\n2021 - 2020\n\nCollaborated with VP of Growth to evaluate international expansion markets; presented insights and proposed strategy to executive team.\nDeveloped and implemented an algorithm to project teachers’ monthly royalty payments.\n\n\n\nMarketing Analytics Manager\nSkillshare\nNew York, NY\n2020 - 2019\n\nPartnered with the Lead Growth Product Manager to conduct price testing using A/B testing and other multivariate methods. Our analyses, which balanced considerations of total sales and new subscriber growth, identified optimal subscription price points across U.S. and international markets. This work established a robust framework for future pricing experiments\nImplemented a “first touch” marketing attribution model choosing from among heuristic and algorithmic methods based on output accuracy, implementation, and interpretability.\n\n\n\nDigital Senior Analyst, Marketing Analytics @ Google\nAccenture\nSan Francisco, CA\n2019 - 2017\n\nLed a team of four data analysts for an acquisition project; collaborated with departments to define metrics and build data pipelines.\n\n\n\nDigital Analyst @ Zynga\nAccenture\nSan Francisco, CA\n2017 - 2016\n\nPartnered with the Vice President of User Acquisition to drive analytics initiatives, achieving a substantial uplift in returns on ad spend from 70% to 115% for an annual investment surpassing $100M. Crafted high-impact executive reports and pioneered the adoption of real-time user Lifetime Value (LTV) modeling, empowering marketers to optimize budget allocation with enhanced efficiency and precision."
-  },
-  {
-    "objectID": "test.html",
-    "href": "test.html",
-    "title": "Testing Self-contained for iframe",
-    "section": "",
-    "text": "Iframe doesn’t seem work properly with self-contained."
-  },
-  {
-    "objectID": "test.html#a-slide-that-contains-an-iframe",
-    "href": "test.html#a-slide-that-contains-an-iframe",
-    "title": "Testing Self-contained for iframe",
-    "section": "",
-    "text": "Iframe doesn’t seem work properly with self-contained."
-  },
-  {
-    "objectID": "calendar.html",
-    "href": "calendar.html",
-    "title": "Calendar",
-    "section": "",
-    "text": "Feel free to book 30 minutes with me. Please specify conferencing details (Phone call, conferencing client, in-person, etc.). You can also use this page to check my availability, and book accordingly."
+    "text": "Professional Experience\n\nSenior Data Scientist, Product Analytics\nTikTok\nMountain View, CA\n2023 - 2022\n\nEmbedded on TikTok’s US E-Commerce team for TikTok Shop launch. Analyzed rollout performance across UK, Southeast Asia, and China, identifying key consumer differences. Provided UX and product experiment recommendations based on findings to enhance the consumer journey from product details to checkout.\nCreated RFM segmentation based on purchase behavior. Proposed product strategies to expand high-value segments.\n\n\n\nSenior Data Scientist\nSkillshare\nNew York, NY\n2022 - 2021\n\nEmployed k-means clustering to analyze audience engagement at Skillshare, leading to the identification of distinct teacher clusters and new monetization opportunities. This analysis informed the development and prioritization of features such as paid 1x1 sessions, webinars, and portfolio reviews, demonstrating potential sales growth of 5-50%\nCollaborated with personalization & discovery teams to design and analyze experiments for content recommendation, onboarding enhancements, and other features\n\n\n\nData Scientist\nSkillshare\nNew York, NY\n2021 - 2020\n\nCollaborated with VP of Growth to evaluate international expansion markets; presented insights and proposed strategy to executive team.\nDeveloped and implemented an algorithm to project teachers’ monthly royalty payments.\n\n\n\nMarketing Analytics Manager\nSkillshare\nNew York, NY\n2020 - 2019\n\nPartnered with the Lead Growth Product Manager to conduct price testing using A/B testing and other multivariate methods. Our analyses, which balanced considerations of total sales and new subscriber growth, identified optimal subscription price points across U.S. and international markets. This work established a robust framework for future pricing experiments\nImplemented a “first touch” marketing attribution model choosing from among heuristic and algorithmic methods based on output accuracy, implementation, and interpretability.\n\n\n\nDigital Senior Analyst, Marketing Analytics @ Google\nAccenture\nSan Francisco, CA\n2019 - 2017\n\nLed a team of four data analysts for an acquisition project; collaborated with departments to define metrics and build data pipelines.\n\n\n\nDigital Analyst @ Zynga\nAccenture\nSan Francisco, CA\n2017 - 2016\n\nPartnered with the Vice President of User Acquisition to drive analytics initiatives, achieving a substantial uplift in returns on ad spend from 70% to 115% for an annual investment surpassing $100M. Crafted high-impact executive reports and pioneered the adoption of real-time user Lifetime Value (LTV) modeling, empowering marketers to optimize budget allocation with enhanced efficiency and precision."
   }
 ]

@@ -1,0 +1,14 @@
+{
+  "hash": "0b9a9e076596124cca7a32cf7fa54274",
+  "result": {
+    "markdown": "---\nlayout: page\ntitle: Dog Walking\naliases:\n  - dogwalking.html\nexecute:\n  freeze: true  # never re-render during project render\nengine: knitr \neditor_options: \n  chunk_output_type: inline\n---\n\n\nCurrently, I offer dog walking / sitting in 2 ways:\n\n::: columns\n::: {.column width=\"45%\"}\n### Phoebe's Paw Parade\n\n```{=html}\n<!-- Calendly link widget begin -->\n<link href=\"https://assets.calendly.com/assets/external/widget.css\" rel=\"stylesheet\">\n<script src=\"https://assets.calendly.com/assets/external/widget.js\" type=\"text/javascript\" async></script>\n<a href=\"\" onclick=\"Calendly.initPopupWidget({url: 'https://calendly.com/justingregoire/monday-phoebe-s-paw-parade'});return false;\">Booking Link</a>\n<!-- Calendly link widget end -->\n```\n\nThese walk schedules are meant for longer term customers. You can start by booking an inital 1.5 hour walk at any available times on my Calendly. If your pup seems like a long term fit for the group, we can discuss booking at a weekly or monthly rate.\n:::\n\n::: {.column width=\"5%\"}\n<!-- empty column to create gap -->\n:::\n\n::: {.column width=\"40%\"}\n### [Rover](https://www.rover.com/sit/justig74774)\n\nThis is typically a good way to book a one time service. Since this is done through the platform, my prices are a bit higher to accounts for the 25% fee rover takes on all bookings. If you want to work something out long term after booking, we can discuss my non-Rover price points\n\nUse this [link](https://www.rover.com/sit/justig74774) to check out my profile and book, and use the promocode: **JUSTIG74774** for \\$20 off your first walk.\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
