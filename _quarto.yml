@@ -16,7 +16,7 @@ website:
 format:
   html:
     theme: flatly
-    css: styles.css
+    css: ['~/Documents/GitHub/justingregoire.me/resume_gen/css/custom_resume.css','~/Documents/GitHub/justingregoire.me/resume_gen/css/styles.css','resume']
     link-external-newwindow: true
 
 
