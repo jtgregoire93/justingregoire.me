@@ -94,14 +94,13 @@ email <- contact_info %>%
 
 ### Contact {#contact}
 
-|                                                                                                                 |                                                                                    |
-|-----------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
-| [![Mail](svg/envelope.svg){alt="Mail" width="50%"}](mailto:jtgregoire93@gmail.com)                              | `r email %>% select(entry) %>% as.character()`                                     |
-| ![Phone](svg/phone.svg){alt="Phone" width="50%"}                                                                | `r phone %>% select(entry)`                                                        |
-| [![Site](svg/compass-regular.svg){alt="Site" width="50%"}](https://justingregoire.me/)                          | [justingregoire.me](https://justingregoire.me/){style="color: #444"}               |
+|                                                                                                                           |                                                                                    |
+|-----------------------------------------|-------------------------------|
+| [![Mail](svg/envelope.svg){alt="Mail" width="50%"}](mailto:jtgregoire93@gmail.com)                                        | `r email %>% select(entry) %>% as.character()`                                     |
+| ![Phone](svg/phone.svg){alt="Phone" width="50%"}                                                                          | `r phone %>% select(entry)`                                                        |
+| [![Site](svg/compass-regular.svg){alt="Site" width="50%"}](https://justingregoire.me/)                                    | [justingregoire.me](https://justingregoire.me/){style="color: #444"}               |
 | [![Calendar](svg/calendar-days.svg){alt="Calendar" width="50%"}](https://calendly.com/justingregoire/connect-with-justin) | [Availability](https://calendar.app.google/J4eY2975fDGTM3SM9){style="color: #444"} |
-| [![Github](svg/github.svg){alt="Github" width="50%"}](https://github.com/jtgregoire93)                          | [Github](https://github.com/jtgregoire93){style="color: #444"}                     |
-| [![Linkedin](svg/linkedin-in.svg){alt="Linkedin" width="50%"}](https://www.linkedin.com/in/justin-gregoire/)    | [Linkedin](https://www.linkedin.com/in/justin-gregoire/){style="color: #444"}      |
+| [![Linkedin](svg/linkedin-in.svg){alt="Linkedin" width="50%"}](https://www.linkedin.com/in/justin-gregoire/)              | [Linkedin](https://www.linkedin.com/in/justin-gregoire/){style="color: #444"}      |
 
 ### Education {data-icon="graduation-cap" data-concise="true"}
 
@@ -135,7 +134,7 @@ email <- contact_info %>%
 
 # Main
 
-## `r your_name` {#title}
+## Justin Gregoire {#title}
 
 ```{r message=FALSE, warning=FALSE}
 cat(paste0(intro_text, sep = "\n"))
