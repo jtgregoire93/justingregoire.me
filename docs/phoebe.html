@@ -74,7 +74,7 @@ gtag('config', 'G-E1D93GS2GJ', { 'anonymize_ip': true});
 <link rel="stylesheet" href="resume">
 <meta property="og:title" content="Justin Gregoire - Phoebe">
 <meta property="og:description" content="">
-<meta property="og:image" content="https://justingregoire.me/phoebe.jpg">
+<meta property="og:image" content="phoebe.jpg">
 <meta property="og:site-name" content="Justin Gregoire">
 <meta property="og:locale" content="en_US">
 </head>
@@ -389,7 +389,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp("https:\/\/justingregoire\.me\/");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href);
     }
