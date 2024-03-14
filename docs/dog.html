@@ -73,6 +73,10 @@ gtag('config', 'G-E1D93GS2GJ', { 'anonymize_ip': true});
 <link rel="stylesheet" href="~/Documents/GitHub/justingregoire.me/resume_gen/css/custom_resume.css">
 <link rel="stylesheet" href="~/Documents/GitHub/justingregoire.me/resume_gen/css/styles.css">
 <link rel="stylesheet" href="resume">
+<meta property="og:title" content="Justin Gregoire - Dog Walking">
+<meta property="og:description" content="">
+<meta property="og:site-name" content="Justin Gregoire">
+<meta property="og:locale" content="en_US">
 </head>
 
 <body class="nav-fixed fullcontent">
@@ -398,7 +402,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/justingregoire\.me\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href);
     }
