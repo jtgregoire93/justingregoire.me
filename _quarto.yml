@@ -12,6 +12,7 @@ website:
       - calendar.qmd
       - href: dog.qmd
         text: Dog Walking
+  google-analytics: "G-E1D93GS2GJ"
 
 format:
   html:
