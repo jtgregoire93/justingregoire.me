@@ -4,9 +4,6 @@ project:
 
 website:
   title: "Justin Gregoire"
-  google-analytics: "G-E1D93GS2GJ"
-  open-graph:
-    locale: en_US
   navbar:
     left:
       - href: index.qmd
@@ -15,6 +12,7 @@ website:
       - calendar.qmd
       - href: dog.qmd
         text: Dog Walking
+        
 format:
   html:
     theme: flatly
