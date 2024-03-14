@@ -11,11 +11,11 @@ about:
       url: "https://github.com/jtgregoire93"
     - text: Calendar
       icon: calendar
-      url: "calendar.html"
+      url: "calendar.qmd"
     - text: Email
       url: "mailto:jtgregoire93@gmail.com"
     - text: Resume
-      url: "resume.html"
+      url: "resume.qmd"
     - text: Rover
       url: "https://www.rover.com/sit/justig74774"
 comments: false

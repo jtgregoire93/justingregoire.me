@@ -12,6 +12,10 @@ cv:
   html: "resume_gen/resume_download.html"
 ---
 
+```{r generate, message=FALSE, warning=FALSE, include=FALSE}
+source("resume_gen/render.R")
+```
+
 ```{css contain, echo=FALSE}
 .embed-container {
     position: relative;
